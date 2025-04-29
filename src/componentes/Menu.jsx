@@ -26,7 +26,7 @@ function Menu({ pedido, onQuantidadeChange }) {
             key={key}
             nome={nomeFormatado}
             preco={precos[key]}
-            imagem={`images/${key}.png`}
+            imagem={`imagens/${key}.png`}
             quantidade={quantidade}
             onQuantidadeChange={(qtd) => onQuantidadeChange(key, precos[key], qtd)}
           />
